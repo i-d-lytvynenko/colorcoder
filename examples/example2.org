@@ -1,0 +1,24 @@
+* Features
+    Here's a list of all features:
+
+    ** Context sensitive highlighting
+        - Headlines
+        - Pages. E.g.:
+            --- This is a page marker ---
+        - Checkboxes
+            [ ] Lorem
+            [X] Ipsum
+        - *bold*, _underlined_, /italic/
+        - :tag1:, ;tag2;, !tag3!, ^tag4^
+        - ^multitag1^multitag2^multitag3^
+        - External links. [[https://google.com]], [[example3.org]]
+            _Note that relative file links use current working directory_
+        - Interdocument links. {{Features}}, {{Context sensitive actions}}
+
+    ** Context sensitive actions
+        - ^<A-b>^ to toggle checkboxes
+        - ^gf^ to open file link
+        - ^gx^ to open URL in browser
+        - ^gl^ to go to a headline
+
+Example heavily inspired by [[https://github.com/danielmagnussons/orgmode]]
