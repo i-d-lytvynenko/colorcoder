@@ -123,6 +123,7 @@ require("colorcoder").setup({
 ```
 
 Preview:
+
 ![preview1.gif](https://raw.githubusercontent.com/i-d-lytvynenko/colorcoder/master/examples/preview1.gif)
 
 ### Orgmode-ish file format
@@ -363,6 +364,7 @@ require("colorcoder").setup({
 (Yes, this config is larger then the plugin itself).
 
 Preview:
+
 ![preview2.gif](https://raw.githubusercontent.com/i-d-lytvynenko/colorcoder/master/examples/preview2.gif)
 
 ## License
