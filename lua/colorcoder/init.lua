@@ -1,9 +1,3 @@
---[[
-set rtp+=,F:\IT\nvim_plugins\nvim-colorcoder\
-lua package.loaded["colorcoder"] = nil
-lua package.loaded["colorcoder"] = nil; require('colorcoder').apply_highlights('org')
-]]--
-
 local M = {}
 
 local function first_to_upper(str)
