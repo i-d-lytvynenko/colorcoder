@@ -145,6 +145,22 @@ local function setup(opts)
             filetype, filetype
         ))
     end
+    vim.api.nvim_create_autocmd(
+        'User',
+        {
+            pattern = 'TelescopePreviewerLoaded',
+            callback = function(args)
+                for filetype, _ in pairs(M.filetypes) do
+                    if filetype == args.data.filetype then
+                        vim.cmd(string.format(
+                            "lua require('colorcoder').apply_highlights('%s')",
+                            filetype
+                        ))
+                    end
+                end
+            end,
+        }
+    )
 end
 
 M.clear_highlights = clear_highlights
