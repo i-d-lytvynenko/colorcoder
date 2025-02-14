@@ -1,3 +1,9 @@
+# Archive Notice
+
+The plugin works, but the APIs used cannot achieve the same results as the standard way of defining syntax in Vim (for example, opening Telescope file preview doesn't trigger the autocommands used by colorcoder). This is not worth the effort, just stick to the Vim way of configuring custom highlighting rules.
+
+For more information on how to properly configure custom syntax highlighting, visit [this blogpost](https://thoughtbot.com/blog/writing-vim-syntax-plugins), check out series [Learn Vimscript the Hard Way](https://learnvimscriptthehardway.stevelosh.com/chapters/45.html) or simply reference `:help highlight`.
+
 # Colorcoder
 
 Colorcoder is a Neovim plugin that allows users to quickly add custom highlights to specific file formats. With colorcoder, users can define custom groups and their corresponding matches and styles for highlighting in their preferred file types.
